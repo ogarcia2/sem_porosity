@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.png
+*.tif
+*.csv
+*.npy
+.DS_Store
