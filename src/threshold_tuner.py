@@ -8,8 +8,8 @@ import os
 
 # === CONFIG ===
 IMAGE_PATH = "../images/sem_image.tif"
-GAUSSIAN_SIGMA = 1
-MIN_OBJECT_SIZE = 30  # Minimum pixel size to keep
+GAUSSIAN_SIGMA = 0.5
+MIN_OBJECT_SIZE = 1 # Minimum pixel size to keep
 
 # === LOAD IMAGE ===
 image = io.imread(IMAGE_PATH, as_gray=True)
